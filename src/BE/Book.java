@@ -1,82 +1,71 @@
 package BE;
 
-public class Book {
-    private String id;
-    private String title;
-    private String writer;
-    private String lix;
-    private String pages;
-    private String timesLent;
+import javafx.beans.property.*;
 
-    // Constructor
-    public Book(String id, String title, String writer, String lix, String pages, String timesLent) {
-        this.id = id;
-        this.title = title;
-        this.writer = writer;
-        this.lix = lix;
-        this.pages = pages;
-        this.timesLent = timesLent;
+/**
+ * Represents a book entity with properties for each attribute.
+ * JavaFX properties are used instead of traditional getters and setters for the following reasons:
+ * 1. Observable Properties: JavaFX properties are observable, allowing listeners to be registered
+ *    for notifications when their values change. This is useful for updating UI components in real time.
+ * 2. Binding: JavaFX properties support binding, enabling automatic synchronization between properties.
+ *    This simplifies UI development and reduces the risk of inconsistencies in the application's state.
+ * 3. Automatic Updates: Modifications to JavaFX properties trigger automatic updates to bound properties
+ *    and listeners, eliminating the need for manual propagation of changes.
+ * 4. Integration with JavaFX Controls: JavaFX properties seamlessly integrate with JavaFX UI controls,
+ *    facilitating direct binding of properties to UI elements such as text fields, labels, and tables.
+ */
+
+public class Book {
+    // Properties for each attribute
+    private final IntegerProperty id;
+    private final StringProperty title;
+    private final StringProperty writer;
+    private final DoubleProperty lix;
+    private final IntegerProperty pages;
+    private final IntegerProperty timesLended;
+
+    // Constructor and property accessor methods omitted for brevity
+    public Book(int id, String title, String writer, double lix, int pages, int timesLended) {
+        this.id = new SimpleIntegerProperty(id);
+        this.title = new SimpleStringProperty(title);
+        this.writer = new SimpleStringProperty(writer);
+        this.lix = new SimpleDoubleProperty(lix);
+        this.pages = new SimpleIntegerProperty(pages);
+        this.timesLended = new SimpleIntegerProperty(timesLended);
     }
 
-    // Getters and setters
-    public String getId() {
+    public IntegerProperty idProperty() {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getTitle() {
+    public StringProperty titleProperty() {
         return title;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getWriter() {
+    public StringProperty writerProperty() {
         return writer;
     }
 
-    public void setWriter(String writer) {
-        this.writer = writer;
-    }
-
-    public String getLix() {
+    public DoubleProperty lixProperty() {
         return lix;
     }
 
-    public void setLix(String lix) {
-        this.lix = lix;
-    }
-
-    public String getPages() {
+    public IntegerProperty pagesProperty() {
         return pages;
     }
 
-    public void setPages(String pages) {
-        this.pages = pages;
+    public IntegerProperty timesLendedProperty() {
+        return timesLended;
     }
 
-    public String getTimesLent() {
-        return timesLent;
+    // Getters and setters (if needed) for non-property fields
+    public int getId() {
+        return id.get();
     }
 
-    public void setTimesLent(String timesLent) {
-        this.timesLent = timesLent;
+    public void setId(int id) {
+        this.id.set(id);
     }
 
-    // Override toString method for debugging or printing
-    @Override
-    public String toString() {
-        return "Book{" +
-                "id='" + id + '\'' +
-                ", title='" + title + '\'' +
-                ", writer='" + writer + '\'' +
-                ", lix='" + lix + '\'' +
-                ", pages='" + pages + '\'' +
-                ", timesLent='" + timesLent + '\'' +
-                '}';
-    }
+    // Repeat for other fields
 }

@@ -4,24 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a8dd8ae-0b4e-484a-9738-0713d69eda28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibrarySystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Data/Books.XML" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Data/MovieInventory.XML" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Questions/Exercise1QuestionAnwsers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/View/LibraryInventoryWindow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BE/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BLL/LibrarySystemManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAL/DOM_Parsing_Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/Controller/LibraryInventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/Model/LibraryModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="1a8dd8ae-0b4e-484a-9738-0713d69eda28" name="Changes" comment="Functional librarySystem useing XML anf DOM parsing. &#10;&#10;need to change, the listview to a tableview">
+      <change afterPath="$PROJECT_DIR$/src/GUI/Controller/LibraryInventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/View/LibraryInventoryWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/View/LibraryInventoryWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BE/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BE/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BLL/LibrarySystemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BLL/LibrarySystemManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAL/DOM_Parsing_Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAL/DOM_Parsing_Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/Controller/LibraryInventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/Model/LibraryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/Model/LibraryModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +55,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/DATAMATIKER/Codeing School/LibrarySystem/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -95,11 +86,24 @@
       <option name="presentableId" value="Default" />
       <updated>1708504835976</updated>
       <workItem from="1708504837014" duration="1914000" />
-      <workItem from="1708506768717" duration="5930000" />
+      <workItem from="1708506768717" duration="11062000" />
     </task>
+    <task id="LOCAL-00001" summary="Functional librarySystem useing XML anf DOM parsing. &#10;&#10;need to change, the listview to a tableview">
+      <option name="closed" value="true" />
+      <created>1708515037314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708515037314</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Functional librarySystem useing XML anf DOM parsing. &#10;&#10;need to change, the listview to a tableview" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functional librarySystem useing XML anf DOM parsing. &#10;&#10;need to change, the listview to a tableview" />
   </component>
 </project>
