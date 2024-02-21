@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+    <!-- Movie 1 -->
+    <movie>
+        <id>1</id>
+        <title>The Shawshank Redemption</title>
+        <director>Frank Darabont</director>
+        <genre>Drama</genre>
+        <release_year>1994</release_year>
+        <rating>9.3</rating>
+    </movie>
+    <!-- Movie 2 -->
+    <movie>
+        <id>2</id>
+        <title>The Godfather</title>
+        <director>Francis Ford Coppola</director>
+        <genre>Crime</genre>
+        <release_year>1972</release_year>
+        <rating>9.2</rating>
+    </movie>
+    <!-- Movie 3 -->
+    <movie>
+        <id>3</id>
+        <title>The Dark Knight</title>
+        <director>Christopher Nolan</director>
+        <genre>Action</genre>
+        <release_year>2008</release_year>
+        <rating>9.0</rating>
+    </movie>
+    <!-- Movie 4 -->
+    <movie>
+        <id>4</id>
+        <title>Pulp Fiction</title>
+        <director>Quentin Tarantino</director>
+        <genre>Crime</genre>
+        <release_year>1994</release_year>
+        <rating>8.9</rating>
+    </movie>
+    <!-- Movie 5 -->
+    <movie>
+        <id>5</id>
+        <title>Schindler's List</title>
+        <director>Steven Spielberg</director>
+        <genre>Biography</genre>
+        <release_year>1993</release_year>
+        <rating>8.9</rating>
+    </movie>
+    <!-- Movie 6 -->
+    <movie>
+        <id>6</id>
+        <title>The Lord of the Rings: The Return of the King</title>
+        <director>Peter Jackson</director>
+        <genre>Fantasy</genre>
+        <release_year>2003</release_year>
+        <rating>8.9</rating>
+    </movie>
+    <!-- Movie 7 -->
+    <movie>
+        <id>7</id>
+        <title>Forrest Gump</title>
+        <director>Robert Zemeckis</director>
+        <genre>Drama</genre>
+        <release_year>1994</release_year>
+        <rating>8.8</rating>
+    </movie>
+    <!-- Movie 8 -->
+    <movie>
+        <id>8</id>
+        <title>Inception</title>
+        <director>Christopher Nolan</director>
+        <genre>Action</genre>
+        <release_year>2010</release_year>
+        <rating>8.8</rating>
+    </movie>
+    <!-- Movie 9 -->
+    <movie>
+        <id>9</id>
+        <title>The Matrix</title>
+        <director>Lana Wachowski, Lilly Wachowski</director>
+        <genre>Action</genre>
+        <release_year>1999</release_year>
+        <rating>8.7</rating>
+    </movie>
+    <!-- Movie 10 -->
+    <movie>
+        <id>10</id>
+        <title>Goodfellas</title>
+        <director>Martin Scorsese</director>
+        <genre>Crime</genre>
+        <release_year>1990</release_year>
+        <rating>8.7</rating>
+    </movie>
+</movies>

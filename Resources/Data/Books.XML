@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- the library is the root element, you may only have 1 root element -->
+<library>
+    <!-- Book 1 -->
+    <book>
+        <id>1</id>
+        <title>The Great Gatsby</title>
+        <writer>F. Scott Fitzgerald</writer>
+        <lix>55.6</lix>
+        <pages>180</pages>
+        <times_lended>3</times_lended>
+    </book>
+    <!-- Book 2 -->
+    <book>
+        <id>2</id>
+        <title>To Kill a Mockingbird</title>
+        <writer>Harper Lee</writer>
+        <lix>65.2</lix>
+        <pages>281</pages>
+        <times_lended>5</times_lended>
+    </book>
+    <!-- Book 3 -->
+    <book>
+        <id>3</id>
+        <title>1984</title>
+        <writer>George Orwell</writer>
+        <lix>45.8</lix>
+        <pages>328</pages>
+        <times_lended>7</times_lended>
+    </book>
+    <!-- Book 4 -->
+    <book>
+        <id>4</id>
+        <title>The Catcher in the Rye</title>
+        <writer>J.D. Salinger</writer>
+        <lix>70.1</lix>
+        <pages>224</pages>
+        <times_lended>2</times_lended>
+    </book>
+    <!-- Book 5 -->
+    <book>
+        <id>5</id>
+        <title>Pride and Prejudice</title>
+        <writer>Jane Austen</writer>
+        <lix>60.4</lix>
+        <pages>279</pages>
+        <times_lended>4</times_lended>
+    </book>
+    <!-- Book 6 -->
+    <book>
+        <id>6</id>
+        <title>Harry Potter and the Philosopher's Stone</title>
+        <writer>J.K. Rowling</writer>
+        <lix>68.9</lix>
+        <pages>309</pages>
+        <times_lended>6</times_lended>
+    </book>
+    <!-- Book 7 -->
+    <book>
+        <id>7</id>
+        <title>The Hobbit</title>
+        <writer>J.R.R. Tolkien</writer>
+        <lix>59.2</lix>
+        <pages>310</pages>
+        <times_lended>8</times_lended>
+    </book>
+    <!-- Book 8 -->
+    <book>
+        <id>8</id>
+        <title>The Lord of the Rings</title>
+        <writer>J.R.R. Tolkien</writer>
+        <lix>52.7</lix>
+        <pages>1178</pages>
+        <times_lended>10</times_lended>
+    </book>
+    <!-- Book 9 -->
+    <book>
+        <id>9</id>
+        <title>The Chronicles of Narnia</title>
+        <writer>C.S. Lewis</writer>
+        <lix>48.3</lix>
+        <pages>769</pages>
+        <times_lended>9</times_lended>
+    </book>
+    <!-- Book 10 -->
+    <book>
+        <id>10</id>
+        <title>Frankenstein</title>
+        <writer>Mary Shelley</writer>
+        <lix>64.5</lix>
+        <pages>280</pages>
+        <times_lended>1</times_lended>
+    </book>
+</library>
+
